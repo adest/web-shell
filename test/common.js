@@ -1,10 +1,13 @@
 (function() {
     require.config({
-        baseUrl: '../www',
+        baseUrl: '',
         paths: {
-            'jasmine': '../test/vendor/jasmine-2.1.1/jasmine',
-            'jasmine-html': '../test/vendor/jasmine-2.1.1/jasmine-html',
-            'boot': '../test/vendor/jasmine-2.1.1/boot'
+            'jasmine': '../node_modules/jasmine-core/lib/jasmine-core/jasmine',
+            'jasmine-html': '../node_modules/jasmine-core/lib/jasmine-core/jasmine-html',
+            'boot': '../node_modules/jasmine-core/lib/jasmine-core/boot',
+            'www/scripts/webshell/Shell': '../www/scripts/webshell/Shell',
+            'www/scripts/webshell/Keyword': '../www/scripts/webshell/Keyword',
+            'www/scripts/webshell/Appenders': '../www/scripts/webshell/Appenders'
         },
         shim: {
             'jasmine': {

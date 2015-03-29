@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      { pattern:'www/vendor/require/require.js', included: false },
+      { pattern:'node_modules/requirejs/require.js', included: false },
       { pattern:'www/scripts/**/**.js', included: false },
       { pattern:'www/scripts/**/**.js.map', included: false },
       { pattern:'www/scripts/**/**.ts', included: false },
