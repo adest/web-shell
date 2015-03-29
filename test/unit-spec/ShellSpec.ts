@@ -1,7 +1,8 @@
 /**
  * Created by Adrien on 23/03/2015.
  */
-/// <reference path="../../test/vendor/jasmine-2.1.1/jasmine.d.ts" />
+
+/// <reference path="../../typings/jasmine/jasmine.d.ts" />
 
 import shellLib = require('www/scripts/webshell/Shell');
 import appenders = require('www/scripts/webshell/Appenders');

@@ -2,13 +2,10 @@
  * Created by Adrien on 28/03/2015.
  */
 
-/// <reference path="../../test/vendor/jasmine-2.1.1/jasmine.d.ts" />
+/// <reference path="../../typings/jasmine/jasmine.d.ts" />
 
 import keyword = require('www/scripts/webshell/Keyword');
 import appenders = require('www/scripts/webshell/Appenders');
-
-//import keyword = require('scripts/webshell/Keyword');
-//import appenders = require('scripts/webshell/Appenders');
 
 
 describe("a handleKeyword method", () =>{

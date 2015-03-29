@@ -2,8 +2,6 @@
  * Created by Adrien on 28/03/2015.
  */
 define(["require", "exports", 'www/scripts/webshell/Keyword', 'www/scripts/webshell/Appenders'], function (require, exports, keyword, appenders) {
-    //import keyword = require('scripts/webshell/Keyword');
-    //import appenders = require('scripts/webshell/Appenders');
     describe("a handleKeyword method", function () {
         var handleKeyword;
         var handler;
